@@ -1,6 +1,14 @@
 <template>
-  <div class="main-input">
-    <input type="text" v-model="text" />
+  <div class="main-input w-full border-b">
+    <div class="w-full flex items-center p-4 bg-white">
+      <b-icon class="text-gray-200 w-6 h-6 mr-4" icon="chevron-down"></b-icon>
+      <input
+        class="h-8 flex-grow"
+        type="text"
+        placeholder="오늘의 할 일은?"
+        v-model="text"
+      />
+    </div>
   </div>
 </template>
 
@@ -15,4 +23,11 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss" scoped>
+input {
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+</style>
