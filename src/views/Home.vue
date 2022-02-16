@@ -1,8 +1,8 @@
 <template>
   <div
-    class="home w-screen h-screen flex justify-center py-16 px-8 bg-gray-100"
+    class="home w-screen h-screen flex justify-center pt-24 px-8 bg-gray-100"
   >
-    <div class="lg:w-1/3 md:w-2/3 w-full flex flex-col items-center">
+    <div class="lg:w-1/3 md:w-2/3 w-full flex flex-col items-center pb-16">
       <h1 class="md:text-8xl text-6xl text-red-300 mb-4">Todos</h1>
       <div class="shadow-lg w-full">
         <MainInput></MainInput>
